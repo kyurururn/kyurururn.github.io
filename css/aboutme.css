@@ -1,0 +1,25 @@
+.middle_detail_me{
+    height:10vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin:20px;
+}
+
+.middle_detail_me_icon{
+    height:9vh;
+    margin:0.5vh;
+}
+.middle_detail_me_name{
+    margin:20px;
+    font-size:3vh;
+}
+
+.middle_detail_des{
+    margin:20px;
+    font-size:2.5vh;
+}
+
+.middle_detail_des_contact{
+    font-size:2vh;
+}

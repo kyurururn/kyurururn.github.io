@@ -1,0 +1,12 @@
+.middle > div{
+    background-color:rgba(0,0,0,0.7);
+    font-family: 'Quicksand', sans-serif;
+    width:80vw;
+    display:flex;
+    border-radius:30px;
+    border:solid 10px whitesmoke;
+    color:whitesmoke;
+    margin:2vh;
+    cursor:pointer;
+    flex-flow: column;
+}

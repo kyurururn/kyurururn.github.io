@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+
+.head{
+    background-color:black;
+    width:100vw;
+    height:10vh;
+}
+
+.middle{
+    width:100vw;
+    height:90vh;
+    background-image:url(bg.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+}
