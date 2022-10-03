@@ -8,4 +8,4 @@ middle.style.height = window.clientHeight * 0.9;
 let body = document.querySelector("body");
 body.style.height = window.clientHeight;
 
-alert("aa")
+window.scrollBy(0,(body.clientHeight - window.innerHeight) / 2)
