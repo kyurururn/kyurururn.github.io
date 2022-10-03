@@ -9,6 +9,10 @@ a{
     color:white;
 }
 
+html{
+    overflow:hidden;
+}
+
 body{
     background-color:black;
     display:flex;
