@@ -13,6 +13,10 @@ html{
     overflow:hidden;
 }
 
+.no_scroll{
+    position:fixed;
+}
+
 body{
     background-color:black;
     display:flex;

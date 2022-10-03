@@ -1,6 +1,6 @@
-window.addEventListener("touchmove",function(event){
-    event.preventDefault();
-});
+let body = document.querySelector("body");
+let scrollTop = window.scrollY;
+body.style.top = (scrollTop - 1) + "px";
+body.classList.add("no_scroll");
 
-let element = document.querySelector("body");
-element.scrollIntoView({behavior:"instant",block:"center"});
+window.scrollBy(0,screen.height/2);
