@@ -11,4 +11,4 @@ body.style.height = window.clientHeight;
 body.style.top = (window.clientHeight / 20 * 10) + "px";
 body.classList.add("no_scroll");
 
-window.scrollBy(0,(body.clientHeight - window.innerHeight) / 2)
+//window.scrollBy(0,(body.clientHeight - window.innerHeight) / 2)
