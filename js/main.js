@@ -2,7 +2,7 @@
 //console.log(body.clientHeight)
 //console.log(window.innerHeight)
 
-let middle = document.getElementById("middle");
+let middle = document.querySelector(".middle");
 middle.style.height = window.clientHeight * 0.9;
 
 let body = document.querySelector("body");
