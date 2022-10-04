@@ -9,7 +9,7 @@ let body = document.querySelector("body");
 body.style.height = window.clientHeight;
 
 let scrollTop = window.scrollY;
-body.style.top = (scrollTop - 1) + "px";
+body.style.top = (scrollTop * -1) + "px";
 body.classList.add("no_scroll");
 
 window.scrollBy(0,(body.clientHeight - window.innerHeight) / 2)
