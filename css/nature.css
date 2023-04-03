@@ -135,3 +135,24 @@ body{
     display:flex;
     align-items:center;
 }
+
+
+#v{
+    color:#a2fff9;
+}
+
+#n{
+    color:#a3ffab
+}
+
+#c{
+    color:#efa3fe;
+}
+
+#f{
+    color:#ffee98;
+}
+
+#s{
+    color:#ff936c;
+}
