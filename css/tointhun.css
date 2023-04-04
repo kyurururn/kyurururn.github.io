@@ -3,10 +3,6 @@
 }
 
 body{
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     -webkit-text-size-adjust: 100%;
     touch-action:pan-y;
     height:100vh;
@@ -61,8 +57,6 @@ body{
 }
 
 .menu_content{
-    height:58vh;
-    height:58dvh;
     width:100%;
     background-color:rgba(0,0,0,0.5);
     border-radius:3.5vh;
@@ -70,8 +64,10 @@ body{
 }
 
 .menu_content_des{
-    height:15vh;
-    height:15dvh;
+    padding-top:2vh;
+    padding-top:2dvh;
+    padding-bottom:1vh;
+    padding-bottom:1dvh;
     width:100%;
     font-size:2.8vh;
     font-size:2.8dvh;
@@ -84,14 +80,15 @@ body{
 }
 
 .menu_content_example{
-    height:31vh;
-    height:31dvh;
     width:100%;
 }
 
+
 .menu_content_example_title{
-    height:5vh;
-    height:5dvh;
+    padding-top:1vh;
+    padding-top:1dvh;
+    padding-bottom:1vh;
+    padding-bottom:1dvh;
     width:100%;
     font-size:2vh;
     font-size:2dvh;
@@ -103,8 +100,6 @@ body{
 }
 
 .menu_content_example_icon{
-    height:25vh;
-    height:25dvh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -115,11 +110,17 @@ body{
     height:23dvh;
     border-radius:2vh;
     border-radius:2dvh;
+    padding-top:1vh;
+    padding-top:1dvh;
+    padding-bottom:1vh;
+    padding-bottom:1dvh;
 }
 
 .menu_content_detail{
-    height:3vh;
-    height:3dvh;
+    padding-top:1vh;
+    padding-top:1dvh;
+    padding-bottom:1vh;
+    padding-bottom:1dvh;
     width:90%;
     margin-left:5%;
     margin-right:5%;
@@ -134,8 +135,10 @@ body{
 }
 
 .menu_content_github{
-    height:5vh;
-    height:5dvh;
+    padding-top:3vh;
+    padding-top:3dvh;
+    padding-bottom:3vh;
+    padding-bottom:3dvh;
     width:80%;
     margin-right:10%;
     margin-left:10%;
@@ -146,3 +149,4 @@ body{
     display:flex;
     align-items:center;
 }
+

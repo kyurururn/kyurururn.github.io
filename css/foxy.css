@@ -83,6 +83,7 @@ body{
     width:100%;
 }
 
+
 .menu_content_example_title{
     padding-top:1vh;
     padding-top:1dvh;
@@ -98,22 +99,37 @@ body{
     font-family: 'Zen Maru Gothic', sans-serif;
 }
 
-.menu_content_example_code{
-    width:80%;
-    margin-right:6.5%;
-    margin-left:6.5%;
-    padding-right:3.5%;
-    padding-left:3.5%;
-    padding-top:3%;
-    padding-bottom:3%;
-    background-color:rgba(40, 37, 37, 0.8);
-    border-radius:1.5vh;
-    border-radius:1.5dvh;
+.menu_content_example_icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.menu_content_example_icon_img{
+    height:23vh;
+    height:23dvh;
+    padding-top:1vh;
+    padding-top:1dvh;
+    padding-bottom:1vh;
+    padding-bottom:1dvh;
+}
+
+.menu_content_detail{
+    padding-top:1vh;
+    padding-top:1dvh;
+    padding-bottom:1vh;
+    padding-bottom:1dvh;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
     font-size:2vh;
     font-size:2dvh;
     color:white;
-    font-family: 'Fira Code', monospace;
-    line-height:1.3;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    text-align:center;
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 .menu_content_github{
@@ -132,23 +148,3 @@ body{
     align-items:center;
 }
 
-
-#v{
-    color:#a2fff9;
-}
-
-#n{
-    color:#a3ffab
-}
-
-#c{
-    color:#efa3fe;
-}
-
-#f{
-    color:#ffee98;
-}
-
-#s{
-    color:#ff936c;
-}
